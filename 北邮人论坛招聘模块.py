@@ -27,8 +27,8 @@ tool=Tool()
 url='http://m.byr.cn/#!default'
 s=requests.session()
 headers={'User-Agent':'Mozilla/5.0 (Windows NT 6.1; rv:38.0) Gecko/20100101 Firefox/38.0'}
-postdata=urllib.urlencode({'id':'tany012345',
-                           'passwd':'332988320'
+postdata=urllib.urlencode({'id':'yourid',
+                           'passwd':'yourpassword'
                            })
 cookie=cookielib.CookieJar()
 opener=urllib2.build_opener(urllib2.HTTPCookieProcessor(cookie))
